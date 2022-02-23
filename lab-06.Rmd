@@ -207,6 +207,10 @@ Whickham3 %>%
   facet_grid(~age_cat)+
   geom_bar(stat="identity")
 
+Whickham3 %>%
+  ggplot(aes(x=outcome,  fill=smoker, y=n)) +
+  facet_grid(~age_cat)+
+  geom_histogram(stat="identity", position="dodge")
 
   
 ```
