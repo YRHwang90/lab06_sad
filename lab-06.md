@@ -282,3 +282,14 @@ Whickham3 %>%
 ```
 
 ![](lab-06_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+
+``` r
+Whickham3 %>%
+  ggplot(aes(x=outcome,  fill=smoker, y=n)) +
+  facet_grid(~age_cat)+
+  geom_histogram(stat="identity", position="dodge")
+```
+
+    ## Warning: Ignoring unknown parameters: binwidth, bins, pad
+
+![](lab-06_files/figure-gfm/unnamed-chunk-16-2.png)<!-- -->
