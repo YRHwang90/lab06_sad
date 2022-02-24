@@ -2,7 +2,7 @@
 title: "Lab 06 - Sad plots"
 author: "Insert your name here"
 date: "Insert date here"
-output: github_document
+output: html_document
 ---
 
 ### Load packages and data
